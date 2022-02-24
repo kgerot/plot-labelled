@@ -1,4 +1,4 @@
-function plot_labelled (points, method, labels, colors, options)
+function plot_labelled (points, method, labels, colors)
 
 %  plot_labelled plots, either 2D or 3D, a labelled dataset.
 %  either using labels designated by the order in which they appear in the 
@@ -30,6 +30,8 @@ function plot_labelled (points, method, labels, colors, options)
 %      'y'  yellow (#FFFF00)
 %      'k'  black (#000000)
 %      'w'  white (#FFFFFF)
+%
+%   V1.0 (C) Katherine Gerot
 
 [N,dim] = size(points);
 
